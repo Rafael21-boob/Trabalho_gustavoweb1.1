@@ -1,0 +1,69 @@
+.containerprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardlogin {
+    background-color: #e6e6e6;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+}
+
+#nome {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.cardlogin input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cardlogin input:focus {
+    border-color: #ff7b72;
+}
+
+.cardlogin button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f87a76;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+.cardlogin button:hover {
+    background-color: #e66b67;
+}
+
+.cardlogin button:active {
+    transform: scale(0.98);
+}
